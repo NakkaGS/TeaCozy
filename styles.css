@@ -1,0 +1,162 @@
+body {
+	font-family: "Helvetica", "sans-serif";
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+
+	text-align: center;
+}
+
+h2 {
+
+}
+
+/*------------Navigation------------*/
+
+.nav {
+    width: 100%;
+    height: 69px;
+    display: block;
+    background-color: black;
+    position: fixed;
+
+    top: 0;
+    border-bottom: 1px solid seashell;
+}
+
+.nav-img {
+    height: 50px;
+    float: left;
+    padding-left: 10px;
+}
+
+.nav a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0 20px;
+}
+
+.nav a li {
+    display: table-cell;
+    vertical-align: right;
+    height: 100%;
+    text-decoration: underline;
+    color: white;
+    float: right;
+}
+
+/*------------Mission------------*/
+
+.mission {
+	text-align: center;
+    background-image: url("img/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    max-width: 1200px;
+    margin: 40px auto 40px auto;
+    display: flex;
+}
+
+.mission-text {
+    background-color: black;
+    margin: auto;
+    width: 100%;
+}
+
+/*------------Feature------------*/
+
+.feature {
+    display: inline-flex;
+    max-width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.feature-img img {
+	max-height: 200px;
+	max-width: 300px;
+	margin-bottom: 10px; 
+}
+
+.feature-img h3 {
+
+}
+
+/*------------Location------------*/
+
+.location {
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto auto auto;
+    padding-top: 15px;
+    background-image: url("img/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.location-top {
+    font-size: 43px;
+    font-weight: bold;
+}
+
+.location-top h2 {
+
+}
+
+.location-container {
+    max-width: 1050px;
+    margin: 15px auto auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.location-box {
+    height: 300px;
+    padding: 20px;
+    margin-bottom: auto;
+    flex-basis: 30%;
+    box-sizing: border-box;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.location-box h3 {
+	
+}
+
+.location-box p {
+	
+}
+
+/*------------Contact------------*/
+
+.contact {
+
+}
+
+.contact h1 {
+
+}
+
+.contact h5 {
+
+}
+
+/*------------Footer------------*/
+
+footer {
+    display: block;
+    float: left;
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+
