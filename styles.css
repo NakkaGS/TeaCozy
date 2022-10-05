@@ -8,10 +8,6 @@ body {
 	text-align: center;
 }
 
-h2 {
-
-}
-
 /*------------Navigation------------*/
 
 .nav {
@@ -78,15 +74,12 @@ h2 {
 
 }
 
-
 .feature-img img {
 	max-height: 200px;
 	max-width: 300px;
 	margin-bottom: 10px; 
-}
-
-.feature-img h3 {
-
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 /*------------Location------------*/
@@ -107,10 +100,6 @@ h2 {
     font-weight: bold;
 }
 
-.location-top h2 {
-
-}
-
 .location-container {
     max-width: 1050px;
     margin: 15px auto auto auto;
@@ -126,14 +115,6 @@ h2 {
     box-sizing: border-box;
     background-color: black;
     opacity: 0.8;
-}
-
-.location-box h3 {
-	
-}
-
-.location-box p {
-	
 }
 
 /*------------Contact------------*/
